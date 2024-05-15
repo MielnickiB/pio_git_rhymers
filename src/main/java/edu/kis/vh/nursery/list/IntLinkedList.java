@@ -38,4 +38,17 @@ public class IntLinkedList {
         return ret;
     }
 
+    public int getLINKED_LIST_DEFAULT_NEGATIVE_VALUE() {
+        return LINKED_LIST_DEFAULT_NEGATIVE_VALUE;
+    }
+
+    public Node getLast() {
+        return last;
+    }
+
+
+    public int getI() {
+        return i;
+    }
+
 }
