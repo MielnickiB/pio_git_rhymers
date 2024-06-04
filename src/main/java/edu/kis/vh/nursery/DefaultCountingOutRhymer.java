@@ -42,13 +42,13 @@ public class DefaultCountingOutRhymer {
 
     protected int peekaboo() {
         if (callCheck())
-            return -DEFAULT_NEGATIVE_VALUE;
+            return DEFAULT_NEGATIVE_VALUE;
         return numbers[total];
     }
 
     public int countOut() {
         if (callCheck())
-            return -DEFAULT_NEGATIVE_VALUE;
+            return DEFAULT_NEGATIVE_VALUE;
         return numbers[total--];
     }
 
